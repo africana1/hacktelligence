@@ -1,0 +1,60 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  background-image: url(img/security.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+}
+
+#security-logo {
+  margin: 0;
+  margin-top: 3px;
+}
+
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.parallax-container {
+  height: 30rem;
+}
+
+.tabs .indicator {
+  background-color: #1a237e;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+
+  nav .brand-logo {
+    display: block;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav .brand-logo {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav .brand-logo {
+    font-size: 1rem;
+    padding: 0;
+  }
+}
